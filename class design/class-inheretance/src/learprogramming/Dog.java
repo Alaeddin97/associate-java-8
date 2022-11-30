@@ -3,8 +3,10 @@ package learprogramming;
 import learprogramming.Animal;
 
 public class Dog extends Animal {
+     int name; // default modifier
+
     public Dog(){
-        System.out.println("Dog");
+        System.out.println("Dog"+name);
     }
 
     @Override // optional

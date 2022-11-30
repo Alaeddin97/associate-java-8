@@ -1,7 +1,8 @@
 package learprogramming;
 
 public interface Herbivore {
-    void hisHerbivore();
+     void hisHerbivore();
+    //public static void hisNotCarnivore(); should have a body
     default void eatsPlants(){
         System.out.println("I am a herbivore, I eat plants");
     }

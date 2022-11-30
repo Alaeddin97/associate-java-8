@@ -11,6 +11,7 @@ public class MainClass {
         Rabbit rabbit=new Rabbit();
         rabbit.eatsPlants();
         Animal animal=new Rabbit();
+        Cat cat=(Cat) animal;
 
         // polymorphic parameters
         printDetails(husky);
